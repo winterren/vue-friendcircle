@@ -5,8 +5,11 @@
 > 花了一天做的，交互目前还比较少，主要实现了点赞功能和上传照片弹出窗。
 
 # Demo
+
+[点此查看Demo](https://winterren.github.io/vue-friendcircle)
+
 ![screenshot](preview/screenshot.png)
-[Demo](https://winterren.github.io/vue-friendcircle)
+
 
 ## Build Setup
 
