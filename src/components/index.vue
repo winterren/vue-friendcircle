@@ -27,14 +27,14 @@
     var data = {
             id: 1917831232,
             name: '武松',
-            imgUrl: '/static/wusong.png',
-            bg:'/static/tiger.jpg',
+            imgUrl: './static/wusong.png',
+            bg:'./static/tiger.jpg',
             brief: '愿得一人心白首不分离',
             contentList: [
               {
                 id: 1997234346,
                 name: '李白',
-                imgUrl: '/static/libai.png',
+                imgUrl: './static/libai.png',
                 brief: '辰风破浪',
                 content: {
                   text: '阁下何不乘风起，扶摇直上九万里。你咋不上天，和神舟十六号肩并肩。',
@@ -110,7 +110,7 @@
               {
                 id: 19978322567,
                 name: '尹志平',
-                imgUrl: '/static/yinzhiping.png',
+                imgUrl: './static/yinzhiping.png',
                 brief: '我爱台妹',
                 content: {
                   text: '我爱台妹 台妹爱我',
@@ -118,11 +118,11 @@
                   picture: [
                     {
                       id: 1,
-                      imgUrl: '/static/yinzhiping1.png'
+                      imgUrl: './static/yinzhiping1.png'
                     },
                     {
                       id: 2,
-                      imgUrl: '/static/yinzhiping2.png'
+                      imgUrl: './static/yinzhiping2.png'
                     }
                   ],
                   video: '',
@@ -191,7 +191,7 @@
               {
                 id: 19978329555,
                 name: '张无忌',
-                imgUrl: '/static/songqingshu.png',
+                imgUrl: './static/songqingshu.png',
                 brief: '搞事情',
                 content: {
                   text: '都来参加啊',
@@ -204,7 +204,7 @@
                   video: '',
                   link: {
                     time: '2017-04-17',
-                    imgUrl: '/static/ad.png',
+                    imgUrl: './static/ad.png',
                     text: '【推广】第二次光明顶大会隆重召开'
                   },
                   location: '光明顶',
