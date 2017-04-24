@@ -45,7 +45,7 @@
     	</div>
     	<div class="post-bottom" >
     		<div class="post-like">
-    		  	<span   v-bind:class="{'inotlike':notLike}">❤</span>
+    		  	<span   v-bind:class="{'inotlike':notLike}"><i class="iconfont icon-like"></i></span>
     			<span  v-for="like in data.content.like">{{ like.userName }}, </span>
     		</div>
     		<div class="post-comment" v-for="comment in data.content.comment">
@@ -109,11 +109,11 @@
     /*姓名*/
     .post-name{
     	color:#1e4c97;
-    	font-size:90%;
+    	font-size:13px;
     }
     .post-text{
     	margin-top:3px;
-		font-size:90%;
+		font-size:13px;
     }
     /*图片*/
     .post-pic {
@@ -138,7 +138,7 @@
     	height: 45px;
     }
     .post-digest div{
-    	font-size:90%;
+    	font-size:13px;
     }
     /*时间*/
     .post-time-ico{
@@ -147,7 +147,7 @@
     .post-time{
     	float: left;
     	margin-top: 5px;
-    	font-size: 77%;
+    	font-size: 12px;
     	color: #757575;
     }
     /*图标*/
@@ -167,18 +167,20 @@
     }
     /*弹出block*/
     .comment-wrapper{
+        height: 25px;
     	display: none;
-    	position: relative;
+    	position: absolute;
     	width: 120px;
-    	background:  #1b1b1b;
+    	background:  rgba(27,27,27,0.8);
     	color: #FFF;
-    	float: right;
+    	right: 30px;
     }
     .like,.comment{
-    	width: 40px;
-    	padding-left: 10px;
+        line-height: 25px;
+        text-align: center;
+    	width: 50px;
     	display: inline-block;
-    	font-size:70%;
+    	font-size:12px;
     }
     .comment-show{
     	display: block;
@@ -190,7 +192,7 @@
     }
     .post-bottom{
     	background: #f3f3f3;
-    	font-size:70%;
+    	font-size:12px;
 		color:#1e4c97;	
 		padding: 5px;
     }
