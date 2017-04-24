@@ -2,7 +2,11 @@
 
 > Vue.js仿写朋友圈
 
-> 数据从Github @kidsir处借鉴，如有侵权请通知我修改。
+> 花了一天做的，交互目前还比较少，主要实现了点赞功能和上传照片弹出窗。
+
+# Demo
+![screenshot](preview/screenshot.png)
+[Demo](https://winterren.github.io/vue-friendcircle)
 
 ## Build Setup
 
